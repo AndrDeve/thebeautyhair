@@ -344,17 +344,17 @@ html{
       position: absolute;
       bottom: 0;
       left: 50%;
-      transform: translate(-50%, -25%);
+      transform: translate(-50%, -0%);
       text-align: center;
-      background: rgba(252, 252, 252, 0.755);
-      font-size: 1.8rem;
-      width: 95%;
-      padding: 1rem 0;
-      color: $black-words;
+      background: $black;
+      font-size: 1.5rem;
+      width: 100%;
+      padding: .5rem 0;
+      color: $lila;
 
       p{
-        color: rgb(79, 79, 79);
-        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        font-size: 1.7rem;
       }
     }
   }
@@ -921,10 +921,10 @@ footer{
       }
 
       h3{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
 
         p{
-          font-size: 1.5rem;
+          font-size: 1.2rem;
         }
       }
     }

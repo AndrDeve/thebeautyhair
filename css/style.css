@@ -377,19 +377,19 @@ html::-webkit-scrollbar-thumb {
   position: absolute;
   bottom: 0;
   left: 50%;
-  -webkit-transform: translate(-50%, -25%);
-          transform: translate(-50%, -25%);
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
   text-align: center;
-  background: rgba(252, 252, 252, 0.755);
-  font-size: 1.8rem;
-  width: 95%;
-  padding: 1rem 0;
-  color: #090909;
+  background: #242424;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: .5rem 0;
+  color: #cb9bde;
 }
 
 .container-card .card h3 p {
-  color: #4f4f4f;
-  font-size: 2rem;
+  color: white;
+  font-size: 1.7rem;
 }
 
 .imagen-light {
@@ -876,10 +876,10 @@ footer .footer .footer-items .footer-telegram {
     width: 20rem;
   }
   .container-card .card h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .container-card .card h3 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
