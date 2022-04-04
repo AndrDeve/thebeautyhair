@@ -388,7 +388,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .container-card .card h3 p {
-  color: white;
+  color: #fff;
   font-size: 1.7rem;
 }
 
