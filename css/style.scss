@@ -524,7 +524,89 @@ html{
   font-size: 1.2rem;
 }
 
-/* RESPONSIVE ================================*/
+//footer
+footer{
+  background: $black;
+
+  .footer{
+    padding: 1.5rem 6%;
+
+    .footer-items{
+      display: flex;
+      justify-content: space-between;
+
+      .interes{
+
+        p{
+          font-size: 1.6rem;
+          color: $white;
+          margin:.8rem 0 1rem 0;
+        }
+      }
+
+      span{
+        color: $lila;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+      }
+
+      a{
+        color: $white;
+        font-size: 1.7rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: .9rem;
+
+        img{
+          height: 2rem;
+          width: 2rem;
+          margin-right: .3rem;
+        }
+
+        &:hover{
+          color: $purple;
+        }
+      }
+
+      .enlaces{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .footer-redes-sociales{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .footer-wpp{
+        display: flex;
+        flex-direction: column;
+
+        a{
+          font-size: 1.6rem;
+        }
+
+        .wpp{
+          display: flex;
+
+          img{
+            height: 2.1rem;
+            width: 2.1rem;
+            margin-right: .3rem;
+          }
+        }
+      }
+
+      .footer-telegram{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+
+/* RESPONSIVE ================================ del jquery*/
 
 @media screen and (max-width: 1100px){
 	.products-list .product-item{
@@ -599,79 +681,8 @@ html{
   }
 }
 
-//footer
-footer{
-  background: $black;
 
-  .footer{
-    padding: 1.5rem 6%;
-
-    .footer-items{
-      display: flex;
-      justify-content: space-between;
-
-      span{
-        color: $lila;
-        margin-bottom: 1rem;
-        font-size: 2rem;
-      }
-
-      a{
-        color: $white;
-        font-size: 1.7rem;
-        display: flex;
-        align-items: center;
-        margin-bottom: .9rem;
-
-        img{
-          height: 2rem;
-          width: 2rem;
-          margin-right: .3rem;
-        }
-
-        &:hover{
-          color: $purple;
-        }
-      }
-
-      .enlaces{
-        display: flex;
-        flex-direction: column;
-      }
-
-      .footer-redes-sociales{
-        display: flex;
-        flex-direction: column;
-      }
-
-      .footer-wpp{
-        display: flex;
-        flex-direction: column;
-
-        a{
-          font-size: 1.6rem;
-        }
-
-        .wpp{
-          display: flex;
-
-          img{
-            height: 2.1rem;
-            width: 2.1rem;
-            margin-right: .3rem;
-          }
-        }
-      }
-
-      .footer-telegram{
-        display: flex;
-        flex-direction: column;
-      }
-    }
-  }
-}
-
-
+// responsivo
 @media (max-width:991px) {
 
     html{
@@ -726,61 +737,7 @@ footer{
 }
 
 @media (max-width:768px){
-  // .img-redes-sociales{
-
-  //   .swiper{
-
-  //     .swiper-wrapper{
-
-  //       .slide{
-  //         margin-bottom:5rem;
-  //         display: flex;
-  //         justify-content: space-between;
-
-  //         .jeje{
-
-  //           .image2{
-  //             display: block;
-
-  //             img{
-  //               height: 30rem;
-  //               width: 30rem;
-  //             }
-  //           }
-  //         }
-
-  //         .jeje2{
-  //           display: block;
-  //         }
-
-  //         .image{
-  //           height: 25rem;
-  //           width: 95%;
-  //           overflow: hidden;
-  //           object-fit: cover;
-
-  //           img{
-  //             height: 30rem;
-  //             width: 30rem;
-  //           }
-  //         }
-
-  //         .image2{
-  //           height: 25rem;
-  //           width: 95%;
-  //           overflow: hidden;
-  //           object-fit: cover;
-  //         }
-
-  //         img{
-  //           height: 60rem;
-  //           width: 100%;
-  //           object-fit: cover;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
+  
   .agregar-imagen{
     width: 50rem;
     height: 50rem;
@@ -855,62 +812,6 @@ footer{
 }
 
 @media (max-width:660px){
-  // .img-redes-sociales{
-
-  //   .swiper{
-
-  //     .swiper-wrapper{
-
-  //       .slide{
-  //         margin-bottom:5rem;
-  //         display: flex;
-  //         justify-content: space-between;
-
-  //         .jeje{
-
-  //           .image2{
-  //             display: block;
-
-  //             img{
-  //               height: 20rem;
-  //               width: 100%;
-  //             }
-  //           }
-  //         }
-
-  //         .jeje2{
-  //           display: block;
-  //         }
-
-  //         .image{
-  //           height: 20rem;
-  //           width: 95%;
-  //           overflow: hidden;
-  //           object-fit: cover;
-
-  //           img{
-  //             height: 20rem;
-  //             width: 100%;
-  //           }
-  //         }
-
-  //         .image2{
-  //           height: 20rem;
-  //           width: 95%;
-  //           overflow: hidden;
-  //           object-fit: cover;
-  //         }
-
-  //         img{
-  //           height: 20rem;
-  //           width: 100%;
-  //           object-fit: cover;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-
   .container-card{
 
     .card{
@@ -1015,18 +916,34 @@ footer{
     footer{
 
       .footer{
+        padding: 1.5rem 3%;
 
         .footer-items{
-          display: flex;
-          flex-direction: column;
+          // display: flex;
+          // flex-direction: column;
+
+          .interes{
+
+            p{
+              font-size: 1.3rem;
+            }
+          }
 
           span{
             margin-right: 1rem;
+            font-size: 1.5rem;
+          }
+
+          a{
+            font-size: 1.3rem;
+
+            img{
+              height: 1.7rem;
+              width: 1.7rem;
+            }
           }
 
           .footer-redes-sociales{
-            display: flex;
-            flex-direction: row;
 
             a{
               margin-right: 1rem;
@@ -1038,11 +955,18 @@ footer{
           }
 
           .footer-wpp{
-            display: flex;
-            flex-direction: row;
 
             a{
               margin-right: 1rem;
+              font-size: 1.3rem;
+            }
+
+            .wpp{
+
+              img{
+                height: 1.8rem;
+                width: 1.8rem;
+              }
             }
 
             span{
@@ -1050,18 +974,18 @@ footer{
             }
           }
 
-          .footer-telegram{
-            display: flex;
-            flex-direction: row;
+          // .footer-telegram{
+          //   display: flex;
+          //   flex-direction: row;
 
-            a{
-              margin-right: 1rem;
-            }
+          //   a{
+          //     margin-right: 1rem;
+          //   }
 
-            span{
-              margin-right: 1rem;
-            }
-          }
+          //   span{
+          //     margin-right: 1rem;
+          //   }
+          // }
         }
       }
     }
