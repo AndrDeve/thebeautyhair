@@ -526,7 +526,14 @@ html{
 
 //footer
 footer{
-  background: $black;
+	background: url(../img/footer.jpg);
+	background-attachment: fixed; /*imagen fija*/
+	background-position: center;
+	background-size: cover; /*toda la imagen*/
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	
 
   .footer{
     padding: 1.5rem 6%;
