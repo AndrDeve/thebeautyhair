@@ -402,16 +402,22 @@ html{
   padding: 7rem 6% 5rem 6%;
 
   .textos-redes-sociales{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    
+    .siguenos{
+      display: flex;
+      justify-content: space-between;
+
+      p{
+        margin: 1rem 0;
+      }
+    }
 
     .items-redes{
       display: flex;
       align-items:center;
       
       a{
-        font-size: 2.3rem;
+        font-size: 2rem;
         color: $black-words;
         display: flex;
         align-items: center;
@@ -426,6 +432,7 @@ html{
 
         img{
           margin-right: .5rem;
+          height: 3rem;
         }
       }
     }
@@ -906,7 +913,13 @@ footer{
 
       .textos-redes-sociales{
 
+        .siguenos{
+          display: flex;
+          flex-direction: column;
+        }
+
         .items-redes{
+          margin-bottom: 2rem;
 
           a{
             font-size: 2rem;

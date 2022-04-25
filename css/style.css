@@ -452,15 +452,17 @@ html::-webkit-scrollbar-thumb {
   padding: 7rem 6% 5rem 6%;
 }
 
-.redes-sociales .textos-redes-sociales {
+.redes-sociales .textos-redes-sociales .siguenos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+}
+
+.redes-sociales .textos-redes-sociales .siguenos p {
+  margin: 1rem 0;
 }
 
 .redes-sociales .textos-redes-sociales .items-redes {
@@ -473,7 +475,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .redes-sociales .textos-redes-sociales .items-redes a {
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: #090909;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -494,6 +496,7 @@ html::-webkit-scrollbar-thumb {
 
 .redes-sociales .textos-redes-sociales .items-redes a img {
   margin-right: .5rem;
+  height: 3rem;
 }
 
 .wrap > h3 {
@@ -926,6 +929,18 @@ footer .footer .footer-items .footer-telegram {
   .container-card .card img {
     height: 23rem;
     width: 18rem;
+  }
+  .redes-sociales .textos-redes-sociales .siguenos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .redes-sociales .textos-redes-sociales .items-redes {
+    margin-bottom: 2rem;
   }
   .redes-sociales .textos-redes-sociales .items-redes a {
     font-size: 2rem;
