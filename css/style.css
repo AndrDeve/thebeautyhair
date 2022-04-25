@@ -163,7 +163,15 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .header-center {
-  background: #242424;
+  background: url(../img/footer.jpg);
+  background-attachment: fixed;
+  /*imagen fija*/
+  background-position: center;
+  background-size: cover;
+  /*toda la imagen*/
+  position: relative;
+  overflow: hidden;
+  color: #fff;
 }
 
 .header .header-center .header-center-items {

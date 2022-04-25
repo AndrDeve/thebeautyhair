@@ -152,7 +152,13 @@ html{
     }
 
     .header-center{
-        background: $black;
+      background: url(../img/footer.jpg);
+      background-attachment: fixed; /*imagen fija*/
+      background-position: center;
+      background-size: cover; /*toda la imagen*/
+      position: relative;
+      overflow: hidden;
+      color: #fff;
 
         .header-center-items{
             display: flex;
