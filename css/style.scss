@@ -395,6 +395,16 @@ html{
 //vinchas
 .vinchas{
   padding: 0rem 6%;
+
+  .container-card{
+
+    .card{
+
+      h3{
+        padding: 1rem 0;
+      }
+    }
+  }
 }
 
 //redes sociales
@@ -440,6 +450,27 @@ html{
 }
 
 
+.wrap{
+  margin-top: 5rem;
+
+  .products-list{
+
+    .product-item{
+      background: $black;
+      text-align: center;
+
+      h3{
+        color: $lila;
+        padding: .5rem 0;
+
+        p{
+          color: $white;
+          padding: 0 2%;
+        }
+      }
+    }
+  }
+}
 
 .wrap > h3{
 	color: $purple;
