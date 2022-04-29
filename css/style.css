@@ -356,6 +356,7 @@ html::-webkit-scrollbar-thumb {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  border-radius: 3rem;
 }
 
 .container-card .card {
@@ -465,8 +466,8 @@ html::-webkit-scrollbar-thumb {
           justify-content: space-between;
 }
 
-.redes-sociales .textos-redes-sociales .siguenos p {
-  margin: 1rem 0;
+.redes-sociales .textos-redes-sociales p {
+  margin: 2rem 0;
 }
 
 .redes-sociales .textos-redes-sociales .items-redes {
@@ -767,9 +768,11 @@ footer .footer .footer-items .footer-wpp .wpp img {
   }
   .products-list .product-item {
     margin-left: 4.5%;
+    margin: 0 auto;
+    margin-bottom: 2.1rem;
   }
   .products-list .product-item:nth-child(3n+1) {
-    margin-left: 0px;
+    margin-left: 1rem;
   }
 }
 

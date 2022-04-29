@@ -327,6 +327,7 @@ html{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  border-radius: 3rem;
 
   .card{
     position: relative;
@@ -416,10 +417,10 @@ html{
     .siguenos{
       display: flex;
       justify-content: space-between;
+    }
 
-      p{
-        margin: 1rem 0;
-      }
+    p{
+      margin: 2rem 0;
     }
 
     .items-redes{
@@ -678,10 +679,12 @@ footer{
 
 	.products-list .product-item{
 		margin-left: 4.5%;
+    margin: 0 auto;
+    margin-bottom: 2.1rem;
 	}
 
 	.products-list .product-item:nth-child(3n+1){
-		margin-left: 0px;
+		margin-left: 1rem;
 	}
 }
 
