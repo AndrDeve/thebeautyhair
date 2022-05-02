@@ -175,6 +175,11 @@ html{
                     font-weight: 500;
                     margin-left:.5rem ;
                 }
+
+                .descarga{
+                  color: $lila;
+                  position: relative;
+                }
             }
         }
     }
@@ -459,7 +464,6 @@ html{
     .product-item{
       background: $black;
       text-align: center;
-      margin: 0 auto;
       margin-bottom: 2rem;
 
       h3{
@@ -669,9 +673,9 @@ footer{
 		font-size: 14px;
 	}
 
-	.products-list .product-item{
-		margin: 4.5%;
-	}
+	// .products-list .product-item{
+	// 	margin: 4.5%;
+	// }
 
 	// .products-list .product-item:nth-child(3n+1){
 	// 	margin-left: 1rem;
@@ -940,6 +944,10 @@ footer{
         .siguenos{
           display: flex;
           flex-direction: column;
+        }
+
+        p{
+          margin: 1rem 0;
         }
 
         .items-redes{

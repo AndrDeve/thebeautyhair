@@ -193,6 +193,11 @@ html::-webkit-scrollbar-thumb {
   margin-left: .5rem;
 }
 
+.header .header-center .header-center-items .navbar .descarga {
+  color: #cb9bde;
+  position: relative;
+}
+
 #menu-btn {
   font-size: 3rem;
   cursor: pointer;
@@ -511,7 +516,6 @@ html::-webkit-scrollbar-thumb {
 .wrap .products-list .product-item {
   background: #242424;
   text-align: center;
-  margin: 0 auto;
   margin-bottom: 2rem;
 }
 
@@ -757,9 +761,6 @@ footer .footer .footer-items .footer-wpp .wpp img {
     width: 15%;
     font-size: 14px;
   }
-  .products-list .product-item {
-    margin: 4.5%;
-  }
 }
 
 @media screen and (max-width: 700px) {
@@ -934,6 +935,9 @@ footer .footer .footer-items .footer-wpp .wpp img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .redes-sociales .textos-redes-sociales p {
+    margin: 1rem 0;
   }
   .redes-sociales .textos-redes-sociales .items-redes {
     margin-bottom: 2rem;
