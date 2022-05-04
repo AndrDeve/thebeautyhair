@@ -459,6 +459,20 @@ html{
 .wrap{
   margin-top: 5rem;
 
+  .descarga{
+    color: $purple;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 20%;
+    font-size: 1.8rem;
+    color: $white;
+    background: $purple;
+  }
+
   .products-list{
 
     .product-item{
@@ -690,6 +704,13 @@ footer{
 		width: 100%;
 		margin-bottom: 10px;
 	}
+
+  .wrap{
+
+    .descarga{
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 600px){
