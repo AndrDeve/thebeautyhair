@@ -513,24 +513,6 @@ html::-webkit-scrollbar-thumb {
   margin-top: 5rem;
 }
 
-.wrap .descarga {
-  color: #9032bb;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  margin: 0 auto;
-  padding: 1.5rem;
-  width: 20%;
-  font-size: 1.8rem;
-  color: #ffffff;
-  background: #9032bb;
-}
-
 .wrap .products-list .product-item {
   background: #242424;
   text-align: center;
@@ -602,6 +584,10 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
   text-decoration: none;
   color: #fff;
+}
+
+.category_list .descarga {
+  background: #9032bb;
 }
 
 .category_list .ct_item-active {
